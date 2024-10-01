@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width:400px;
+    margin-inline: auto;
+    margin-top:100px;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:2px 1px 5px rgba(0,0,0,0.2);
+    border-radius: 20px;
+
+}
+.container h1{
+    color:black;;
+}
+.sub-container{
+    padding-top: 10px;
+    font-size: 22px;
+}
+.sub-container input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid black;
+}
+.sub-container button{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
